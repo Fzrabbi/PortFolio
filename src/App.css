@@ -62,10 +62,10 @@
 .robo img{
   width: 100%;
   animation: robo 1s linear infinite;
-  animation-play-state: paused;
+  
 }
 .robo img:hover{
-  animation-play-state: running;
+  
 }
 @keyframes robo{
   100%{
