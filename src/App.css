@@ -23,6 +23,7 @@
   z-index: 1;
   background-repeat: repeat-x;
   animation: wall 10s linear infinite;
+  animation-play-state: paused;
 }
 @keyframes wall
 {
@@ -35,14 +36,14 @@
   width:  500%;
   background-image: url(stars.png);
   position: absolute;
-  bottom: 300px;
+  bottom: 2%;
   left: 0;
   right: 0;
   display: block;
   z-index: 1;
   background-repeat: repeat-x;
   animation: stars 40s linear infinite;
-
+  animation-play-state: paused;
 }
 @keyframes stars
 {
@@ -64,9 +65,7 @@
   animation: robo 1s linear infinite;
   
 }
-.robo img:hover{
-  
-}
+
 @keyframes robo{
   100%{
     transform: translateY(-1px);
@@ -79,7 +78,7 @@
   }
 }
 .weels{
-  left: 49%;
+  left: 48%;
   bottom:  225px;
   transform:  translateX(-50%);
   position: absolute;
@@ -92,6 +91,7 @@
   width :72px;
   height:72px;
   animation: weels 1s linear infinite;
+  animation-play-state: paused;
 }
 .frontweel{
   left: 10px;
@@ -99,6 +99,7 @@
   width :60px;
   height:60px;
   animation: weels 1s linear infinite;
+  animation-play-state: paused;
 }
 @keyframes weels{
   100%{
